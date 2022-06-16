@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jwtFormClient/static/css/main.c1c09f99.css",
+    "main.js": "/jwtFormClient/static/js/main.a61b5a4d.js",
+    "index.html": "/jwtFormClient/index.html",
+    "main.c1c09f99.css.map": "/jwtFormClient/static/css/main.c1c09f99.css.map",
+    "main.a61b5a4d.js.map": "/jwtFormClient/static/js/main.a61b5a4d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1c09f99.css",
+    "static/js/main.a61b5a4d.js"
+  ]
+}
