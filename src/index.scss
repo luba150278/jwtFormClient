@@ -1,0 +1,68 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap');
+$main: #002333;
+$mainContrast: #159a9c;
+$mainBg: #205051;
+$mainLight: #deefe7;
+$addContrast: #af4377;
+$linkHover: #7a2e53;
+$boxShadow: rgba(34, 60, 80, 0.2);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Comfortaa', cursive;
+  font-size: 16px;
+  color: $main;
+  background: #ffffff;
+}
+
+ul > li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: $main;
+
+  &:hover {
+    color: $linkHover;
+  }
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.btn {
+  border: none;
+
+  &:hover {
+    border: none;
+  }
+}
+
+.btn-primary {
+  background: $mainContrast;
+
+  &:hover {
+    background: $mainBg;
+  }
+}
+
+.btn-danger {
+  background: $addContrast;
+
+  &:hover {
+    background: $linkHover;
+  }
+}
+
+.popover-body {
+  padding: 4px 10px;
+}
