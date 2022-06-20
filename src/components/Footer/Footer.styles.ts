@@ -29,7 +29,7 @@ export const FooterWrapDiv = styled.div`
       margin-bottom: 0;
     }
   }
-  @media (max-width: 450px) {
+  @media (max-width: 540px) {
     display: flex;
     flex-direction: column;
     align-items: start;
