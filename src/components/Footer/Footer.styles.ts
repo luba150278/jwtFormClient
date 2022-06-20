@@ -29,4 +29,12 @@ export const FooterWrapDiv = styled.div`
       margin-bottom: 0;
     }
   }
+  @media (max-width: 450px) {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    & > div:first-child {
+      margin-bottom: 20px;
+    }
+  }
 `;

@@ -7,7 +7,7 @@ export const ContentDiv = styled.div`
   box-shadow: 0px 5px 10px 2px ${colors.boxShadow};
   border-radius: 10px;
   @media screen and (max-width: 640px) {
-    margin: 10px 0;
+    margin: 10px 0px 40px;
   }
 `;
 

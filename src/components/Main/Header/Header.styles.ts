@@ -20,7 +20,7 @@ export const NavInner = styled.div`
   width: 1170px;
   margin: 0 auto;
   max-width: 100%;
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 1170px) {
     padding: 0px 10px;
   }
 `;
