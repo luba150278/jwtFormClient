@@ -3,7 +3,8 @@ import { makeAutoObservable } from 'mobx';
 import getNotify from '../functions/notify';
 import setErrorFunction from '../functions/setErrors';
 import getSuccessNotify from '../functions/sucessNotify';
-import { headersConfig } from '../http';
+import { headersConfig } from '../http/header-config';
+
 import { IInputDefaultData } from '../models/IInputDefaultData';
 import { IUser } from '../models/IUser';
 import { AuthResponse } from '../models/response/AuthResponse';

@@ -1,16 +1,9 @@
 /* eslint-disable no-underscore-dangle */
-import axios, { AxiosRequestConfig, AxiosRequestHeaders, AxiosResponse } from 'axios';
+import axios, { AxiosRequestConfig, AxiosResponse } from 'axios';
 import getErrorMessage from '../functions/getErrorMessage';
 import getNotify from '../functions/notify';
 import { AuthResponse } from '../models/response/AuthResponse';
-
-export const headersConfig: AxiosRequestHeaders = {
-  'Content-Type': 'application/json',
-  Authorization: `Bearer ${localStorage.getItem('token')}`,
-  'Access-Control-Allow-Origin': process.env.CLIENT_URL || 'http://localhost:3000/',
-  SameSite: 'None',
-  Secure: true,
-};
+import { headersConfig } from './header-config';
 
 const $api = axios.create({
   withCredentials: true,
