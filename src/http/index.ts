@@ -1,13 +1,13 @@
 /* eslint-disable no-underscore-dangle */
-import axios, { AxiosRequestConfig, AxiosResponse } from 'axios';
+import axios, { AxiosRequestConfig, AxiosRequestHeaders, AxiosResponse } from 'axios';
 import getErrorMessage from '../functions/getErrorMessage';
 import getNotify from '../functions/notify';
 import { AuthResponse } from '../models/response/AuthResponse';
 
-export const headersConfig = {
+export const headersConfig: AxiosRequestHeaders = {
   'Content-Type': 'application/json',
   Authorization: `Bearer ${localStorage.getItem('token')}`,
-  'Access-Control-Allow-Origin': 'https://jwt-form.netlify.app/',
+  'Access-Control-Allow-Origin': process.env.CLIENT_URL || 'http://localhost:3000/',
   SameSite: 'None',
   Secure: true,
 };
