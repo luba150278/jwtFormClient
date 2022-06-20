@@ -1,4 +1,5 @@
 {
+  "home": "https://luba150278.github.io/jwtFormClient",
   "name": "build-inner-fe",
   "proxy": "https://jwt-form-server.herokuapp.com",
   "version": "0.1.0",
