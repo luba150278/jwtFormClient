@@ -1,6 +1,6 @@
 {
   "name": "build-inner-fe",
-  "proxy": "https://quiet-cloud-2908.fly.dev",
+  "proxy": "https://jwt-form-server.herokuapp.com",
   "version": "0.1.0",
   "private": true,
   "type": "module",
