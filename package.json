@@ -1,7 +1,7 @@
 {
-  "home": "https://luba150278.github.io/jwtFormClient",
+  "homepage": "https://luba150278.github.io/jwtFormClient",
   "name": "build-inner-fe",
-  "proxy": "https://jwt-form-server.herokuapp.com",
+  "proxy": "https://quiet-cloud-2908.fly.dev",
   "version": "0.1.0",
   "private": true,
   "type": "module",
