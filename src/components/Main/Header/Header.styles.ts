@@ -29,3 +29,9 @@ export const Email = styled.p`
   display: flex;
   margin-bottom: 0;
 `;
+
+export const IconWrap = styled.div`
+  &:hover {
+    cursor: pointer;
+  }
+`;
