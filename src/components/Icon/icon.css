@@ -1,0 +1,20 @@
+@import '../../index.scss';
+
+.navIcon {
+  cursor: pointer;
+}
+.outIcon {
+  color: var(--mainContrast);
+}
+.outIcon:hover {
+  fill: var(--mainBg);
+  color: var(--mainBg);
+}
+
+.deleteIcon {
+  color: var(--addContrast);
+}
+.deleteIcon:hover {
+  fill: var(--linkHover);
+  color: var(--linkHover);
+}

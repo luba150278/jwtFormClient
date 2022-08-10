@@ -1,22 +1,22 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap');
-$main: #002333;
-$mainContrast: #159a9c;
-$mainBg: #205051;
-$mainLight: #deefe7;
-$addContrast: #af4377;
-$linkHover: #7a2e53;
-$boxShadow: rgba(34, 60, 80, 0.2);
 
 * {
   margin: 0;
   padding: 0;
+  --main: #002333;
+  --mainContrast: #159a9c;
+  --mainBg: #205051;
+  --mainLight: #deefe7;
+  --addContrast: #af4377;
+  --linkHover: #7a2e53;
+  --boxShadow: rgba(34, 60, 80, 0.2);
 }
 
 body {
   font-family: 'Comfortaa', cursive;
   font-size: 16px;
-  color: $main;
+  color: var(--main);
   background: #ffffff;
 }
 
@@ -26,11 +26,11 @@ ul > li {
 
 a {
   text-decoration: none;
-  color: $main;
+  color: var(--main);
+}
 
-  &:hover {
-    color: $linkHover;
-  }
+a:hover {
+  color: var(--linkHover);
 }
 
 .container {
@@ -41,26 +41,26 @@ a {
 
 .btn {
   border: none;
+}
 
-  &:hover {
-    border: none;
-  }
+.btn:hover {
+  border: none;
 }
 
 .btn-primary {
-  background: $mainContrast;
+  background: var(--mainContrast);
+}
 
-  &:hover {
-    background: $mainBg;
-  }
+.btn-pr:hover {
+  background: var(--mainBg);
 }
 
 .btn-danger {
-  background: $addContrast;
+  background: var(--addContrast);
+}
 
-  &:hover {
-    background: $linkHover;
-  }
+.btn-danger:hover {
+  background: var(--linkHover);
 }
 
 .popover-body {
