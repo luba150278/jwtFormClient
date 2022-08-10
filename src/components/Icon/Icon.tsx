@@ -2,7 +2,6 @@ import React, { useMemo } from 'react';
 import { OverlayTrigger } from 'react-bootstrap';
 import { IconContext } from 'react-icons/lib';
 import RenderToolTip from '../RenderToolTip/RenderToolTip';
-// import './icon.css';
 
 interface IProps {
   iconChild: JSX.Element;

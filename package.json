@@ -1,5 +1,4 @@
 {
-  "homepage": "https://luba150278.github.io/jwtFormClient",
   "name": "build-inner-fe",
   "proxy": "https://quiet-cloud-2908.fly.dev",
   "version": "0.1.0",
